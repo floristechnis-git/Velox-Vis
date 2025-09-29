@@ -1,23 +1,23 @@
 {
   "expo": {
-    "name": "Example App",
-    "slug": "example-app",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "name": "Example App {The display name of your app}",
+    "slug": "example-app {URL-friendly name used in Expo URLs}",
+    "version": "1.0.0 {Your app's version number} ",
+    "orientation": "portrait {App will only work in portrait mode (not landscape)} ",
+    "icon": "./assets/icon.png {Default app icon path}",
+    "userInterfaceStyle": "light {Uses light theme throughout the app}",
+    "splash {Configures the launch screen}": {
+      "image": "./assets/splash.png {Splash screen image}",
+      "resizeMode": "contain {Image scales to fit without cropping}",
+      "backgroundColor": "#ffffff {White background behind the splash image}"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
+    "ios {App runs on both iPhone and iPad}": {
       "supportsTablet": true
     },
-    "android": {
+    "android {Platform-Specific Configurations}": {
       "package": "com.example.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -25,7 +25,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png {Browser tab icon}"
     }
   }
 }
