@@ -30,7 +30,7 @@ Update `app.json`: 'https://github.com/floristechnis-git/Velox-Vis/blob/main/Web
 
 
 ### Step 6: Login to Expo
--https://expo.dev/login
+- https://expo.dev/login
 ```bash
 eas login
 # Follow authentication steps
