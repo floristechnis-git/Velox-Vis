@@ -1,5 +1,5 @@
 # Complete Guide: Website to APK (2025)
-### Author: Yumkhaibam Johnson Singh 
+## Author: Yumkhaibam Johnson Singh 
 
 ## Prerequisites
 - Node.js (v16 or v18 recommended)
